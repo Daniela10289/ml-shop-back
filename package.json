@@ -1,0 +1,30 @@
+{
+  "name": "ml-shop",
+  "version": "1.0.0",
+  "description": "ml-shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniela10289/ml-shop-back.git"
+  },
+  "author": "Daniela Palacio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniela10289/ml-shop-back/issues"
+  },
+  "homepage": "https://github.com/Daniela10289/ml-shop-back#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
