@@ -1,13 +1,13 @@
 const express =require('express');
-const ItemsService = require('./../services/itemService');
+const ItemsService = require('../services/itemService');
 
 const router = express.Router();
 const service = new ItemsService();
 
 router.get('/', async (req, res, next) => {
     try {
-      const pets = await service.find();
-      res.json(pets);
+      const items = await service.find();
+      res.json(items);
     } catch (error) {
       next(error);
     }
