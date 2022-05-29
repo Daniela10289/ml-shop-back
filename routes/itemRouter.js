@@ -6,7 +6,8 @@ const service = new ItemsService();
 
 router.get('/', async (req, res, next) => {
     try {
-      const items = await service.find();
+      const { search } = req.query;
+      const items = await service.find(search);
       res.json(items);
     } catch (error) {
       next(error);
