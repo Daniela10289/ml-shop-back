@@ -14,6 +14,7 @@ router.get('/', async (req, res, next) => {
     }
   });
 
+  //capturar el parametro de id que viene por url
   router.get('/:id',    
   async (req, res, next) => {
     try {
