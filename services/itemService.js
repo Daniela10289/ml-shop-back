@@ -39,7 +39,6 @@ class ItemService {
 
         const foundItems = res.data.results.slice(0, 4);
         foundItems.forEach(item => {
-          // response.author.name = item.seller.eshop.nick_name; TODO
           response.items.push(this.buildItem(item));
           categoryIds.push(item.category_id);
         });
