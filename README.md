@@ -1,6 +1,6 @@
 # Test Practico Frontend
 
-En este servidor encontrara un API REST la cual consume un API REST de un cliente externo, este proyecto tiene como objetivo enviar la información por medio de peticiones htttp a un cliente visual en React
+En este servidor encontrara un API REST la cual consume un API REST de un cliente externo, este proyecto tiene como objetivo enviar la información por medio de peticiones http a un cliente visual en React
 
 ## Estrategia de diseño de aplicaciones
 
@@ -25,7 +25,7 @@ Asegúrese de que se cumplan los siguientes requisitos antes de comenzar.
 git@github.com:Daniela10289/ml-shop-back.git
 ```
 
-#### Instalar dependencias backend
+#### Instalar dependencias
 
 para instalar las depencias que se encuentran en el archivo package.json es necesario ejecutar el siguiente comando
 
@@ -41,8 +41,8 @@ npm run dev
 
 ## Realización de solicitudes HTTP a las API REST expuestas
 
-Una vez inciados ambos servidores ml-shop-back y ml-shop-front en su terminal, se abrira una nueva pestaña en su navegador por defecto.
-En la pantalla principal podra realizar las siguiente solicitudes
+Una vez inciado el servidor en su terminal, se mostrara el puerto del API en la consola.
+Podra realizar las peticiones http desde Postman o Insomia.
 
 | ITEM | URL |
 | ------ | ------ |
