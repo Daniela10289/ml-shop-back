@@ -29,10 +29,10 @@ class ItemService {
     let categoryIds = [];
 
     let response = {
-      "author": //TODO: este campo no se encontró en la estructura original.
+      "author":
       {
-        "name": "",
-        "lastname": ""
+        "name": "Daniela",
+        "lastname": "Palacio Perez"
       },
       categories: [],
       items: []
@@ -99,10 +99,10 @@ class ItemService {
     // según el id.
 
     let response = {
-      "author": //TODO: este campo no se encontró en la estructura original
+      "author":
       {
-        "name": "",
-        "lastname": ""
+        "name": "Daniela",
+        "lastname": "Palacio Perez"
       },
       categories: [],
       item: {}
