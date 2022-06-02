@@ -81,9 +81,8 @@ class ItemService {
       // En mainCategory se pretende obtener la categoria que mas repite
       let uniqueCategories = Object.keys(categoryCount)
       let countValues = uniqueCategories.map(k => categoryCount[k]);
-      mainCategory = uniqueCategories.filter(c => categoryCount[c] === Math.max(countValues))[0];
+      mainCategory = uniqueCategories.filter(c => categoryCount[c] === Math.max(...countValues))[0];
     }
-
     const promise = axios.get(`https://api.mercadolibre.com/categories/${mainCategory}`);
 
     return promise.then((res) => {
