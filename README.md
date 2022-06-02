@@ -1,12 +1,12 @@
-# Test Practico Frontend
+# Test Práctico Frontend
 
-En este servidor encontrara un API REST la cual consume un API REST de un cliente externo, este proyecto tiene como objetivo enviar la información por medio de peticiones http a un cliente visual en React
+En este servidor encontrará un API REST la cual consume otra API REST de un cliente externo, este proyecto tiene como objetivo enviar la información por medio de peticiones http a un cliente visual en React
 
 ## Estrategia de diseño de aplicaciones
 
 Esta aplicación está diseñada consumir un servicio de API REST utilizando NodeJs y archivos de configuración para declarar rutas, configuraciones y servicios.
 
-Este proyecto se ha desarrollado utilizando NodeJs con express, está destinado a consumir API REST que manejen solicitudes http y devuelvan respuestas http json válidas.
+Este proyecto se ha desarrollado utilizando NodeJs con Express JS, está destinado a consumir API REST que manejen solicitudes http y devuelvan respuestas http json válidas.
 
 ## Iniciemos
 
@@ -27,9 +27,11 @@ git@github.com:Daniela10289/ml-shop-back.git
 
 #### Instalar dependencias
 
-para instalar las depencias que se encuentran en el archivo package.json es necesario ejecutar el siguiente comando
+para instalar las dependencias que se encuentran en el archivo package.json es necesario ejecutar el siguiente comando
 
-- npm install
+```sh
+npm install
+```
 
 #### Iniciar el servidor web
 
@@ -41,16 +43,16 @@ npm run dev
 
 ## Realización de solicitudes HTTP a las API REST expuestas
 
-Una vez inciado el servidor en su terminal, se mostrara el puerto del API en la consola.
-Podra realizar las peticiones http desde Postman o Insomia.
+Una vez iniciado el servidor en su terminal, se mostrará el puerto del API en la consola.
+Podrá realizar las peticiones http desde Postman o Insomia.
 
 | ITEM | URL |
 | ------ | ------ |
-| Inicio | http://localhost:8080/api/items/?search=${query} |
-| Lista de procuctos | http://localhost:8080/api/items/${id} |
+| Inicio | http://localhost:8080/api/items/?search={query} |
+| Lista de productos | http://localhost:8080/api/items/{id} |
 
-## Definición de parametros de busqueda
+## Definición de parámetros de búsqueda
 
-- {query}: Palabra clave por la cual el Api buscara las coincidencias y devolvera una lista de las mismas.
-- {id}: Id del procuto que se quiere obtener directamente del Api
+- {query}: Palabra clave por la cual el Api buscara las coincidencias y devolverá una lista de las mismas.
+- {id}: Id del producto que se quiere obtener directamente del Api
 
